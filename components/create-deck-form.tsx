@@ -64,6 +64,7 @@ export function CreateDeckForm() {
       <Button type="submit" size="lg" disabled={isSubmitting || idea.trim().length < 20}>
         {isSubmitting ? "Starting generation…" : "Generate Pitch Deck"}
       </Button>
+      
     </form>
   );
 }
